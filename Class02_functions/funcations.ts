@@ -57,7 +57,7 @@ console.log(answer);
 
 
 
-// bit easy way with type infrence we can skip bit stuff Ts will automagially infer typs 
+// bit easy way with type infrence we can skip bit stuff Ts will automagially infer types 
 function dividedByThree (num : number):string{
     return(`ans is ${num/2}`)
 }
