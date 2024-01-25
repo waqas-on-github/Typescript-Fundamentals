@@ -18,7 +18,7 @@ function addme (value : number | bigint ) {
 
 addme(22)
 
-// unions with custom types 
+// unions with type aliases
 
 type  allint  = number | bigint 
 

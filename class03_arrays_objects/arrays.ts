@@ -18,5 +18,23 @@ const arrayOfMoreNums : Array <number> = [1,2,3,5]
 arrayOfMoreNums.push(44) 
 
 
+// ittrating on arrays 
 
 
+for (let i: number = 0; i < arrayOfMoreNums.length; i++) {
+    console.log(arrayOfMoreNums[i]);
+}
+
+
+
+arrayofNums.forEach((num : number) : void => {
+  console.log(num);
+  
+})
+
+
+const doubledNums : number[] = arrayOfMoreNums.map((onenum : number): number => {
+    return onenum*2
+} )
+
+console.log(doubledNums);

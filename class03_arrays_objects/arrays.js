@@ -9,3 +9,10 @@ emptyArray.push("wow"); // this will not be possable
 /// the another way 
 var arrayOfMoreNums = [1, 2, 3, 5];
 arrayOfMoreNums.push(44);
+arrayofNums.forEach(function (num) {
+    console.log(num);
+});
+var doubledNums = arrayOfMoreNums.map(function (onenum) {
+    return onenum * 2;
+});
+console.log(doubledNums);

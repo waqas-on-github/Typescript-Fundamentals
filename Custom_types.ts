@@ -31,5 +31,3 @@ const adminUser: Admin = {
 // Log the 'isAdmin' property of the 'Admin' object
 console.log(adminUser.isAdmin);
 
-// Export an empty object (no actual export needed in this code)
-export {}
