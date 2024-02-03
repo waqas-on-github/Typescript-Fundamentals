@@ -1,3 +1,9 @@
+
+const str : string ="hello"
+console.log(typeof str);
+
+
+
 const shape = {
     x:0, 
     y:0 , 
@@ -16,7 +22,9 @@ const shape = {
 
 // 2nd way 
 
- type shapeType = typeof shape
+ type shapeType = typeof shape   // take non primitive value and generate types for it 
+
+ 
 
 // 3rd and shortest way
 

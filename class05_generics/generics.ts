@@ -26,12 +26,12 @@ const value = input?.value
 // -------- we can do this  but then funcation can only accept number or string type of array 
 
 
-      function getSecond<arrayType>(arr:arrayType[]) : arrayType {
-          return arr[1]
-      }
+function getSecond<arrayType>(arr:arrayType[]) : arrayType {
+    return arr[1]
+}
      
-       let secondEle = getSecond([1,2,3])
-       let secondEleofStrs = getSecond(['str1' , 'str2' ])
+let secondEle = getSecond([1,2,3])
+let secondEleofStrs = getSecond(['str1' , 'str2' ])
  
 // let figure out how its works 
 
@@ -43,12 +43,4 @@ const value = input?.value
 
 // generics with type alises/custom Types
 
-type person<Pdata extends Array<number | string>  > ={
-    name: string;
-    personData: Pdata[];
-}
 
-const person1: person<number[] > = {
-    name: "waqas",
-    personData: [1, 23, 4]
-}
