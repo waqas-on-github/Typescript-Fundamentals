@@ -14,7 +14,7 @@ emptyArray.push("wow") // this will not be possable
 
 /// the another way 
 
-const arrayOfMoreNums : Array <number> = [1,2,3,5]
+const arrayOfMoreNums : Array<number> = [1,2,3,5]
 arrayOfMoreNums.push(44) 
 
 
@@ -33,8 +33,8 @@ arrayofNums.forEach((num : number) : void => {
 })
 
 
-const doubledNums : number[] = arrayOfMoreNums.map((onenum : number): number => {
-    return onenum*2
+const doubledNums : number[] = arrayOfMoreNums.map((oneNum : number): number => {
+    return oneNum*2
 } )
 
 console.log(doubledNums);

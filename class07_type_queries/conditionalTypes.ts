@@ -19,6 +19,7 @@ export type TypeName<T> =
     T extends  symbol ? 'symbol' : 
     T extends  bigint ? 'bigint' : 
     T extends  Function ? 'function' : 
+    T extends null ? 'null' :
     "object"    
 
 
@@ -27,9 +28,3 @@ function typeName<T> (t:T) : TypeName<T> {
 }
 
 
-const str = typeName("hello")
-const nll = typeName(null)
-
-
-const n = null
-console.log(typeof n);

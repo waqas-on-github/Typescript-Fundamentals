@@ -35,7 +35,7 @@ let secondEleofStrs = getSecond(['str1' , 'str2' ])
  
 // let figure out how its works 
 
-// step #1 when we define funcation the <arrayType> will be anyor empty box which is waiting for types to get 
+// step #1 when we define funcation the <arrayType> will be any or empty box which is waiting for types to get 
 // setp #2 when we call funcation "getSecond([1,2,3])" --->  TS will infer type of data what we are providing 
 // step#3 it'll set that type of "arrayType"  'getSecond<arrayType>' --> here and this will act as placeholder/variable to store type 
 //---> and the pass it into actual parameter "arr:arrayType[]" 

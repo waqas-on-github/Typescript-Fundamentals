@@ -9,7 +9,7 @@ interface User {
 }
 
 
-type mytyep =  User ['id']|User['name']
+type mytyep =  User['id']|User['name']
 
 
 export  {

@@ -3,8 +3,8 @@
 //  in  --> is operator use for looping 
 type values ="username" | "email"
 
-
-type user ={ [key in  values] : string}
+// syntex of mapped types is [ key in values  ]
+type user = { [key in  values] : string}
 
 const user1 : user = { 
     username : "waqas", 
@@ -42,3 +42,17 @@ const center2 : point= {
 
 
 
+//
+const obj = {
+    name2 : "waqas", 
+    age : 27, 
+    contact : 23971231719
+}
+
+type objType = keyof typeof obj
+
+// create again object strcture through mapped types 
+
+type anotherType = {
+    [key in objType] :objType
+}

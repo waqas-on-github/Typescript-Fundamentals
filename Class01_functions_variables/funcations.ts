@@ -57,8 +57,8 @@ console.log(answer);
 
 
 
-// bit easy way with type infrence we can skip bit stuff Ts will automagially infer types 
-function dividedByThree (num : number):string{
+// bit easy way with type infrence. we can skip bit stuff Ts will automagially infer types 
+function dividedByThree (num : number){
     return(`ans is ${num/2}`)
 }
 
@@ -77,7 +77,7 @@ sayHappy("waqas")
 
 
 
-// return  type wit h arrow funcatins 
+// return  type with arrow funcatins 
 
 const addFour = (num:number) : number => {
     return (num+4)
